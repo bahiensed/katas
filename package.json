@@ -1,0 +1,36 @@
+{
+  "name": "katas",
+  "version": "1.0.0",
+  "description": "Just a simple repository featuring kata exercise solutions. Let's practice the TDD (Test-Driven Development) methodology.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahiensed/katas.git"
+  },
+  "keywords": [
+    "tdd",
+    "kata",
+    "katas",
+    "typescript",
+    "jest"
+  ],
+  "author": "@bahiensed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahiensed/katas/issues"
+  },
+  "homepage": "https://github.com/bahiensed/katas#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
