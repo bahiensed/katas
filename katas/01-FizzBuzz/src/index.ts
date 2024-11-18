@@ -7,4 +7,4 @@ const convert = (number: number): string => {
   return number.toString();
 };
 
-export { convert };
+export default convert;
