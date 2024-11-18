@@ -1,4 +1,4 @@
-import { convert } from '../src/index';
+import convert from '../src/';
 
 describe('FizzBuzz:', () => {
   test('convert 0 to "0"', () => {
